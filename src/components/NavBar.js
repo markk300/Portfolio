@@ -7,15 +7,15 @@ function NavBar() {
   const links = [
     {
       id: 1,
-      link: "Home",
+      link: "home",
     },
     {
       id: 2,
-      link: "About",
+      link: "about",
     },
     {
       id: 3,
-      link: "Portfolio",
+      link: "portfolio",
     },
     {
       id: 4,
@@ -28,13 +28,13 @@ function NavBar() {
   ];
   return (
     <div
-      className="flex justify-between items-center
-     bg-black w-full h-20 px-4 text-white fixed"
+      className="flex justify-between  items-center
+     bg-black w-full h-20 px-4 text-white fixed "
     >
       <div>
         <h1 className="text-3xl font-signature ml-2">MMark0</h1>
       </div>
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex m-auto">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -48,7 +48,7 @@ function NavBar() {
       </ul>
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-400"
+        className="md:hidden cursor-pointer pr-4 z-10 text-gray-400 "
       >
         {nav ? <FaTimes size={33} /> : <GoThreeBars size={33} />}
       </div>

@@ -3,9 +3,18 @@ import htmlimg from "../assets/html.png";
 import cssimg from "../assets/css.png";
 import javascriptimg from "../assets/javascript.png";
 import reactimg from "../assets/react.png";
-import githubmg from "../assets/html.png";
+import githubimg from "../assets/github.png";
 import tailwindimg from "../assets/tailwind.png";
 import bootstrapimg from "../assets/bootstrap.png";
+import mysqlimg from "../assets/mysqlimg.png"
+import java from "../assets/java.png"
+import node from "../assets/node.png"
+import nextjs from "../assets/nextjs.png"
+
+
+
+
+import python from "../assets/python.png"
 
 function Experience() {
   const skils=[
@@ -31,11 +40,11 @@ function Experience() {
       id:4,
       src:reactimg,
       title:"React",
-      style:"shadow-orange-600"
+      style:"shadow-sky-300"
     },
     {
       id:5,
-      src:githubmg,
+      src:githubimg,
       title:"GitHub",
       style:"shadow-gray-500"
     },
@@ -51,9 +60,39 @@ function Experience() {
       title:"TailWind",
       style:"shadow-sky-400"
     },
+    {
+      id:8,
+      src:mysqlimg,
+      title:"MySql",
+      style:"shadow-sky-600"
+    },
+    {
+      id:9,
+      src:python,
+      title:"Python",
+      style:"shadow-yellow-500"
+    },
+    {
+      id:10,
+      src:java,
+      title:"Java",
+      style:"shadow-red-500"
+    },
+    {
+      id:11,
+      src:node,
+      title:"NodeJs",
+      style:"shadow-green-400"
+    },
+    {
+      id:12,
+      src:nextjs,
+      title:"NextJs",
+      style:"shadow-sky-100"
+    },
   ]
   return (
-    <div name="experience"
+    <div name="expirience"
       className="bg-gradient-to-b
       from-gray-700 to-black
       w-full h-screen"

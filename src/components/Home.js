@@ -29,7 +29,7 @@ function Home() {
         </div>
         <div>
             <img src={dev} alt="developer img" className="rounded-2xl mx-auto w-2/3 
-            md:w-full md:w-2/3"  />
+            md:w-full "  />
         </div>
       </div>
     </div>
