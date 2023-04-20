@@ -59,12 +59,13 @@ function NavBar() {
         bg-gradient-to-b from-black to-gray-800 text-gray-500"
         >
           {links.map(({ id, link }) => (
-            <li key={id} className="capitalize text-4xl px-4 py-6">
+            <li key={id} className="capitalize cursor-pointer text-4xl px-4 py-6 hover:scale-110 duration-200">
               {" "}
               <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500}> {link}</Link>
             </li>
           ))}
         </ul>
+        
       )}
     </div>
   );
