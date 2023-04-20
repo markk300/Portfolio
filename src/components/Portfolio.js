@@ -18,8 +18,8 @@ function Portfolio() {
         {
             id:2,
             src: portfolioimg2,
-            titles:"Nails",
-            href:""
+            titles:"Item Store",
+            href:"https://itemstore12.netlify.app/"
         },
         {
             id:3,
@@ -42,8 +42,8 @@ function Portfolio() {
         {
             id:6,
             src: portfolioimg6,
-            titles:"Nunito ",
-            href:""
+            titles:"Book Shop ",
+            href:"https://booksite12.netlify.app/"
         },
     ]
   return (
