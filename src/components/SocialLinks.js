@@ -41,7 +41,7 @@ function SocialLinks() {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "./Mrda Marko cv111.pdf",
+      href: "./Mrda Marko cv.pdf",
       style: "rounded-br-md",
       download: true,
     },

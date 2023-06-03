@@ -9,7 +9,8 @@ import bootstrapimg from "../assets/bootstrap.png";
 import mysqlimg from "../assets/mysqlimg.png"
 import java from "../assets/java.png"
 import node from "../assets/node.png"
-import nextjs from "../assets/nextjs.png"
+import express from "../assets/express.png"
+import mongodb from "../assets/mongodb.png"
 
 
 
@@ -86,9 +87,15 @@ function Experience() {
     },
     {
       id:12,
-      src:nextjs,
-      title:"NextJs",
+      src:express,
+      title:"Express",
       style:"shadow-sky-100"
+    },
+    {
+      id:13,
+      src:mongodb,
+      title:"MongoDB",
+      style:"shadow-green-500"
     },
   ]
   return (
