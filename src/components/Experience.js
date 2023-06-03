@@ -7,7 +7,6 @@ import githubimg from "../assets/github.png";
 import tailwindimg from "../assets/tailwind.png";
 import bootstrapimg from "../assets/bootstrap.png";
 import mysqlimg from "../assets/mysqlimg.png"
-import java from "../assets/java.png"
 import node from "../assets/node.png"
 import express from "../assets/express.png"
 import mongodb from "../assets/mongodb.png"
@@ -74,10 +73,10 @@ function Experience() {
       style:"shadow-yellow-500"
     },
     {
-      id:10,
-      src:java,
-      title:"Java",
-      style:"shadow-red-500"
+      id:13,
+      src:mongodb,
+      title:"MongoDB",
+      style:"shadow-green-500"
     },
     {
       id:11,
@@ -91,12 +90,7 @@ function Experience() {
       title:"Express",
       style:"shadow-sky-100"
     },
-    {
-      id:13,
-      src:mongodb,
-      title:"MongoDB",
-      style:"shadow-green-500"
-    },
+    
   ]
   return (
     <div name="expirience"
