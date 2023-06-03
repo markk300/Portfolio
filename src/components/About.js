@@ -11,15 +11,15 @@ function About() {
         className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center
       w-full h-full"
       >
-        <div className="pb-2">
+        <div className="pb-2 mt-10">
           <p
-            className="text-4xl font-bold inline border-b-4 
+            className="text-4xl mt-10 font-bold inline border-b-4 
           border-gray-500"
           >
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-5">
           As a current student pursuing a master's degree, I have a strong
           foundation in front-end development and back-end programming. Deeply
           committed to continuous learning and consistently expanding my
