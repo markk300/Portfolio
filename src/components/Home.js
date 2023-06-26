@@ -55,7 +55,7 @@ function Home() {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center 
       justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white mt-28 ">I am Web Developer</h2>
+          <h2 className="text-4xl sm:text-7xl font-bold text-white  ">I am Web Developer</h2>
           <p className="text-gray-500 py-4 max-w-md">
             I am a Web developer with almost three years of experience in
             maintaining and building web pages/applications. Seeking for new
