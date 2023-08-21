@@ -29,7 +29,7 @@ function NavBar() {
   return (
     <div
       className="flex justify-between  items-center
-     bg-black w-full h-20 px-4 text-white fixed top-0"
+     bg-black w-full h-20 px-4 text-white "
     >
       <div>
         <h1 className="text-3xl font-signature ml-2">MMark0</h1>
