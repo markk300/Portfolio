@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
 
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <div
+      
       name="about"
       className="w-full  
     bg-gradient-to-b from-gray-800 to-black text-white"
@@ -19,14 +24,16 @@ function About() {
             About
           </p>
         </div>
-        <p className="text-xl mt-5">
+        <p data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="text-xl mt-5">
           As a current student pursuing a master's degree, I have a strong
           foundation in front-end development and back-end programming. Deeply
           committed to continuous learning and consistently expanding my
           knowledge in the field.
         </p>
         <br />
-        <div className="text-xl">
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="text-xl">
           <p>
             In terms of <b>front-end development</b>, I possess extensive
             knowledge of HTML5, CSS, and JavaScript. I am proficient in using
@@ -36,7 +43,8 @@ function About() {
             interfaces.
           </p>
 
-          <p>
+          <p data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
             On the <b>back-end</b>, I have experience with Node.js and Express,
             which allows me to develop server-side logic and APIs. I am
             proficient in working with databases such as MongoDB and MySQL,
