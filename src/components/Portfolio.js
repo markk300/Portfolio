@@ -41,7 +41,7 @@ function Portfolio() {
     {
       id: 6,
       src: portfolioimg6,
-      titles: "Book Shop ",
+      titles: "Pillows ",
       href: "https://booksite12.netlify.app/",
     },
   ];
