@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import portfolioimg1 from "../assets/portfolio/web1.png";
 import portfolioimg2 from "../assets/portfolio/web2.png";
 import portfolioimg3 from "../assets/portfolio/web3.png";
 import portfolioimg4 from "../assets/portfolio/web4.png";
 import portfolioimg5 from "../assets/portfolio/web5.png";
 import portfolioimg6 from "../assets/portfolio/web6.png";
+import Aos from "aos"
 
 function Portfolio() {
+
+  useEffect(()=>{
+    Aos.init({duration: 2000})
+  })
+
   const portfolios = [
     {
       id: 1,
@@ -52,7 +58,8 @@ function Portfolio() {
      to-gray-700 text-white md:h-screen pt-10"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full pt-15 pb-48">
-        <div className="pb-8">
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
@@ -64,6 +71,7 @@ function Portfolio() {
             <div key={id} className="shadow-md shadow-gray-600 rounded-2xl">
               <a href={href}>
                 <img
+                 data-aos="flip-left"
                   src={src}
                   alt="Developer"
                   className="  rounded-lg 

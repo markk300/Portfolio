@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import htmlimg from "../assets/html.png";
 import cssimg from "../assets/css.png";
 import javascriptimg from "../assets/javascript.png";
@@ -10,6 +10,7 @@ import mysqlimg from "../assets/mysqlimg.png"
 import node from "../assets/node.png"
 import express from "../assets/express.png"
 import mongodb from "../assets/mongodb.png"
+import Aos from "aos"
 
 
 
@@ -17,6 +18,9 @@ import mongodb from "../assets/mongodb.png"
 import python from "../assets/python.png"
 
 function Experience() {
+  useEffect(()=>{
+    Aos.init({duration: 2000})
+  })
   const skils=[
     {
       id:1,
@@ -99,7 +103,8 @@ function Experience() {
       w-full h-screen "
     >
       <div className="max-w-screen-lg  mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
-        <div>
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Experience</p>
           <p className="py-8">These are the technologies I've worked with </p>
         </div>
@@ -108,7 +113,7 @@ function Experience() {
             
             {skils.map(({id,src,title,style})=>(
              <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-             <img src={src} alt="imgg" className="w-20 mx-auto"/>
+             <img data-aos="zoom-in" src={src} alt="imgg" className="w-20 mx-auto"/>
              <p className="mt-4">{title}</p>
            </div>
 
